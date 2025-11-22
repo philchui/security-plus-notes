@@ -2,14 +2,14 @@
 
 These are my condensed, structured study notes for CompTIA Security+, based on Professor Messer’s videos and transcripts.
 
-## 📘 About These Notes
+## About These Notes
 These notes are:
 - Summaries of Messer’s lessons  
 - Condensed and reorganized for easier memorization  
 - Broken down by exam domain  
 - Written to support hands-on labs and real-world understanding  
 
-## 📂 Structure
+## Structure
 
 ### **Domain 1 – General Security Concepts**
 Foundational security principles, CIA triad, authentication, authorization, access control models.
@@ -26,7 +26,7 @@ Monitoring, SIEM, logging, incident response, forensic basics, secure admin prac
 ### **Domain 5 – Security Program Management**
 Risk, governance, frameworks, compliance, policies, assessment methods.
 
-## 🧠 Goal
+## Goal
 To build a strong foundation before applying these concepts in my cybersecurity home lab and incident response projects.
 
 This repository will grow as I continue my Security+ studies and lab work.
