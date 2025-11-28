@@ -1,5 +1,59 @@
 DOMAIN 1 — General Security Concepts
+1.1 Security Controls (categories + types)
+1.2 CIA Triad / Nonrepudiation
+1.3 AAA (Identification, AuthN, AuthZ, Accounting)
+1.4 Zero Trust / PBAC / PEPPDP
+1.5 Physical Security
+1.6 Deception & Disruption (honeypots, honeytokens)
+1.7 Change Management (CAB, rollback, sandbox)
+1.8 PKI, certificates, signatures, hashing
+1.9 Encryption (symmetric, asymmetric, key exchange)
+1.10 Obfuscation, tokenization, data masking
+1.11 Blockchain concepts
 
+DOMAIN 2 — Threats, Vulnerabilities, Attacks
+2.1 Threat Actors & Profiles
+2.2 Social Engineering (phishing, impersonation, watering hole, misinformation)
+2.3 Application / Memory / Code Vulnerabilities
+ • Overflow  • Race condition  • SQLi / XSS / injection  • DLL injection / process hollowing  • Malicious updates (SolarWinds)  • Patch management errors  • OS vulnerabilities  • Zero-days  • Cloud misconfigurations  • Supply chain attacks  • Misconfiguration vulnerabilities  • Virtualization vulnerabilities  • Hardware/firmware vulnerabilities (IoT, EOL/EOSL, compensating controls)
+2.4 Malware & Variants
+ • Virus, worm, ransomware  • Fileless malware  • Spyware, adware, bloatware  • Rootkits  • Logic bombs  • Keyloggers  • RATs  • Botnets, C2, DDoS
+2.5 Network Attacks
+ • DoS/DDoS  • Amplification/reflection  • On-path (MITM)  • ARP poisoning  • Replay attacks  • DNS poisoning / typosquatting  • Wireless attacks   – Deauth   – Evil twin   – RF jamming   – PMF   – Fox-hunting
+
+DOMAIN 3 — Security Architecture
+3.1 Enterprise architecture
+ • Data plane / control plane  • Segmentation  • Zones (DMZ, trusted, untrusted)  • Micro-segmentation
+3.2 Secure design principles
+3.3 Cloud architecture + shared responsibility
+3.4 Virtualization security
+3.5 Resilience & redundancy
+3.6 Network access control (802.1X, certificates)
+
+DOMAIN 4 — Security Operations
+4.1 Monitoring & logging
+4.2 SIEM, UEBA
+4.3 Threat intelligence
+4.4 Incident response
+4.5 Digital forensics
+4.6 Vulnerability scanning
+4.7 Patch/Config management
+4.8 Hardening, baselines, CIS, STIG
+
+DOMAIN 5 — Governance, Risk, Compliance
+5.1 Policies, standards, procedures
+5.2 Risk frameworks (NIST, ISO)
+5.3 Gap analysis
+5.4 Privacy & data governance
+5.5 Third-party risk
+5.6 Audit & assessment
+5.7 Regulations (PCI, HIPAA, GDPR)
+————————————
+DOMAIN 1 — General Security Concepts (Part 1)
+This chunk covers 1.1 Security Controls through 1.3 AAA.
+Once you finish reading, say “Next chunk.” I will then continue into Parts 2, 3, 4… until the entire Master Scaffold is complete.
+
+ULTRA-DENSE MEMORY SCAFFOLD — DOMAIN 1 (Part 1)
 1.1 SECURITY CONTROLS — FULL MEMORY FRAMEWORK
 A. Security Control Categories (what they ARE)
 This is the T-MOP model:
@@ -77,7 +131,7 @@ Memory Pairing Trick: Controls are ALWAYS both:
 	•	A category (Technical / Managerial / Operational / Physical)
 	•	A type (Preventive / Detective / Corrective, etc.) Example: A login banner = Deterrent–Technical.
 
-1.2 CIA TRIAD + NONREPUDIATION 
+1.2 CIA TRIAD + NONREPUDIATION (ULTRA-DENSE)
 A. Confidentiality
 Keep data private; restrict unauthorized access.
 Methods:
@@ -721,3 +775,5 @@ F. Exam Pointers
 	•	Blockchain ensures integrity, not confidentiality
 	•	Focus on hashing, distribution, immutability, consensus
 	•	Perfect topic for questions about tamper-evident logging
+
+✔️ End of Chunk 4
